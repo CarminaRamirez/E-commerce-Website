@@ -3,6 +3,7 @@ from decouple import config
 
 BASE_DIR = os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))))
+#SECRET_KEY = '!$(o+-^p)s9#%%kpx-cufza^=fu00ab!ihvkqur3dq8*z3o6us'
 
 SECRET_KEY = config('SECRET_KEY')
 
