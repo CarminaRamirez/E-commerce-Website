@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Django E-commerce
 
 This is a very simple e-commerce website built with Django.
@@ -75,3 +76,6 @@ Sponsor through GitHub Sponsors. On GitHub, [this repository](https://github.com
 ### Option 2: JustDjango
 
 If you're learning Django and want to take your next step to become a professional Django developer, consider signing up on [JustDjango](https://learn.justdjango.com).
+=======
+# E-commerce-Website
+>>>>>>> 36e02d2b97552fea40b61b24544acee866f26f48
