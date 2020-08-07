@@ -66,7 +66,7 @@ class PaymentForm(forms.Form): # formulario de pago
 
 class InicioSesionForm(forms.Form):
     nombreUsuario = forms.CharField(widget=forms.TextInput(attrs={
-        'placeholder': 'Nombre de usuario'
+        'placeholder': 'Usuario'
     }))
     #email = forms.EmailField()
     contraseña = forms.CharField(widget=forms.PasswordInput)

@@ -12,7 +12,6 @@ from .views import (
     RequestRefundView,
     homeview,
     item_detail_view,
-    iniciar_sesion,
     iniciar_sesioon
 )
 
@@ -30,7 +29,6 @@ urlpatterns = [
          name='remove-single-item-from-cart'),
     path('payment/<payment_option>/', PaymentView.as_view(), name='payment'),
     path('request-refund/', RequestRefundView.as_view(), name='request-refund'),
-    #path('iniciar-sesion/', iniciar_sesion, name='inicio-de-sesion'),
-    path('iniciosesion/', iniciar_sesioon, name='iniciosesion')
+    path('iniciosesion/', iniciar_sesion, name='iniciosesion')
     #path('buscar=<busqueda>/', buscar, name='buscar')
 ]

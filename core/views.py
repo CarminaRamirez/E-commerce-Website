@@ -573,13 +573,8 @@ class RequestRefundView(View):
                 messages.info(self.request, "This order does not exist.")
                 return redirect("core:request-refund")
 
-def iniciar_sesion(request):
-    context={
-        'form': InicioSesionForm()
-    }
-    return render(request, 'iniciar_sesion.html', {})
 
-def iniciar_sesioon(request):
+def iniciar_sesion(request):
 
     if request.method == "POST":
         miFormulario= InicioSesionForm(request.POST)
